@@ -8,7 +8,7 @@ const btnVotar = document.getElementById("votar");
 const btnResultados = document.getElementById("mostrar");
 
 btnEjecutar.addEventListener('click',ingresarVoto)
-btnRecordar.addEventListener('click',desplegarTodos)
+btnRecordar.addEventListener('click',verResultados)
 
 let historial = [];
 
@@ -18,7 +18,7 @@ let tARespuesta = document.getElementById("laRespuesta");
 
 function ingresarVoto(){
     let nombre = document.getElementById("elNombre").value;   
-    let lenguaje = parseInt(document.getElementById("elLenguaje").value);
+    let lenguaje = document.getElementById("elLenguaje").value;
     let res
 
     if (nombre.length==0 || isNaN(lenguaje)) {
@@ -37,7 +37,7 @@ function ingresarVoto(){
     
 }
 
-function desplegarTodos()
+function verResultados()
 {
     tARespuesta.textContent = info;
 }
