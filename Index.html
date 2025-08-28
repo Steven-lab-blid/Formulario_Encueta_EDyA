@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script type="module" src="Scripts/main.js"></script>
+    <title>FrontEnd Estatico</title>
+</head>
+<body>
+    <head>
+        <h1>Formulario Estructuras de datos y Algoritmos 1</h1>
+    </head>
+    <main>
+        <section class="laInfo">
+            <div>
+                <table class="datos_entrada">
+                    <caption>Información para el formulario</caption>  
+                    <tr>
+                        <td>Nombre</td>
+                        <td>
+                            <input type="text" value="" id="elNombre" name="nombre" placeholder="Escriba su nombre">
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td>Lenguaje</td>
+                        <td>
+                            <select id="laResidencia" placeholder="seleccione el lenguaje">
+                                <option value="JavaScript" selected>JavaScript</option><!-- Opción por defecto -->
+                                <option value="Python">Python</option> 
+                                <option value="C++">C++</option> 
+                                <option value="Otro">Otro</option>
+                        </td>
+                    </tr>
+                                                               
+                </table>
+            </div>
+            <div class="error" id="error"></div>
+            <div>
+                <textarea id="laRespuesta" readonly>Salida---</textarea>
+            </div>
+            <div>
+                <button id="votar">Enviar</button> 
+                <button id="mostrar">Ver Información</button>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="coloreado">
+            Creado por Stiven Ortiz Muñoz - 2220900 para EDyA1
+        </div>
+    </footer>     
+</body>
+</html>
