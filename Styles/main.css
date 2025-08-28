@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: darkgreen;
+    color: #7986cf;
     font-size: 30px;
 }
 
@@ -49,4 +49,11 @@ button {
     width:100px;
     height: 40px;
     margin: 10px;
+}
+
+.elLenguaje {
+    width:100px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(213, 214, 127);
 }
